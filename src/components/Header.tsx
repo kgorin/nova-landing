@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <img src={logo} alt="GemFrame" className="h-8 w-auto" />
+          <img src={logo} alt="GemFrame" className="h-12 w-auto" />
         </a>
 
         {/* CTA */}
