@@ -5,9 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // GitHub Pages: set to your repo name (e.g., '/nova-landing/')
-  // For custom domain or root deployment, use '/'
-  base: process.env.GITHUB_ACTIONS ? '/nova-landing/' : '/',
+  // Use '/' for custom domain (gemframe.ai)
+  base: '/',
   server: {
     host: "::",
     port: 8080,
